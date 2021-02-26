@@ -6,7 +6,8 @@ const PORT = 5555
 app.set('view engine', 'ejs')
 
 app.get('/', function (req, res) {
-    res.send('Server Test')
+    // res.send('Server Test')
+    res.render('index')
 })
 
 app.listen(PORT, function () {
